@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bbb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIBezierPath *rounded = [UIBezierPath bezierPathWithRoundedRect:&lt;#view#&gt;.bounds byRoundingCorners:(UIRectCorner&lt;#TopLeft|TopRight|BottomLeft|BottomRight#&gt;) cornerRadii:CGSizeMake(&lt;#5.0f#&gt;, &lt;#5.0f#&gt;)];
+CAShapeLayer *shape = [[CAShapeLayer alloc] init];
+[shape setPath:rounded.CGPath];
+&lt;#view#&gt;.layer.mask = shape;
+[shape release];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1B0F8D8B-2DB4-4EDE-B051-58ED1E2534C9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BezierPath - bbb</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
