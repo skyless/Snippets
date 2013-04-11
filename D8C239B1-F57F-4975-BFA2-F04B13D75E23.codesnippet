@@ -9,8 +9,10 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc {
-    &lt;#ivar#&gt;
+	<string>- (void)dealloc
+{
+    &lt;#deallocations#&gt;
+    
     [super dealloc];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -18,7 +20,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ELC dealloc</string>
+	<string>Dealloc - ddd</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
