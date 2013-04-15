@@ -3,32 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sss</string>
+	<string>fff</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;#object class#&gt; *)shared&lt;#class name#&gt;
-{
-    static &lt;#object class#&gt; *shared = nil;
-    static dispatch_once_t once = 0;
-	
-    dispatch_once(&amp;once, ^{
-		shared = [[self alloc] init];
-	});
-	
-    return shared;
-}</string>
+	<string>[[NSSearchPathForDirectoriesInDomains(&lt;#NSDocumentDirectory#&gt;, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"&lt;#file.archive#&gt;"];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>13339044-5BA2-48D7-8501-7E993189F69F</string>
+	<string>EDA151B3-F0A2-4EA6-A641-D0F549BDBD94</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Singleton - sss</string>
+	<string>File path - fff</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
